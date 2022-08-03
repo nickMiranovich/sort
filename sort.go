@@ -98,7 +98,7 @@ func merge(a []int, b []int) []int {
 	}
 	return final
 }
-
+//метод сортировки быстрый
 func quickSort(a []int) []int {
 	if len(a) < 2 {
 		return a
